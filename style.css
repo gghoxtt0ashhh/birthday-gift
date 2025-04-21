@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(icon/background.png);
+    backdrop-filter: blur(16px);
+    -webki-backdrop-filter: blur(16px);
+    margin:20px; 
+    text-align:center;
+}
+
+.btn {
+    border: none;
+    background-color: #4B0082;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(50px);
+    -webki-backdrop-filter: blur(50px);
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    width: 500px;
+    color: rgb(130, 130, 130);
+}
+
+.text2 {
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #661a9c;
+}
+
+@media screen and (max-width: 1010px) {
+    .btn {
+        border: none;
+        background-color: #4B0082;
+        border-radius: 5px;
+        padding: 5px 15px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        width: 10px;
+    }
+    
+    .container {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content {
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(50px);
+        -webki-backdrop-filter: blur(50px);
+        box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 25px;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    p {
+        text-align: center;
+        width: 300px;
+        color: rgb(130, 130, 130);
+        font-size: 13px;
+    }
+    
+    .text2 {
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+}    
